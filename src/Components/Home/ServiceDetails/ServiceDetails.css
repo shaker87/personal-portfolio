@@ -1,0 +1,187 @@
+.service-card{
+    margin-top: 30px;
+    height: 300px;
+    width: 350px;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+
+.BorderTopBottom:before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    top: 0px;
+    left: 0px;
+    background: #10C1F6;
+    transition: all 0.5s ease;
+}
+
+.BorderTopBottom:after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    bottom: 0px;
+    right: 0px;
+    background: #10C1F6;
+    transition: all 0.5s ease;
+}
+
+
+.BorderLeftRight:before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 3px;
+    height: 50px;
+    background: #10C1F6;
+    transition: all 0.5s ease;
+}
+
+.BorderLeftRight:after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 3px;
+    height: 50px;
+    background:#10C1F6;
+    transition: all 0.5s ease;
+}
+
+.service-card:hover .BorderTopBottom:before,
+.service-card:hover .BorderTopBottom:after{
+    width: 350px;
+    transition: all 0.5s ease;
+}
+
+.service-card:hover .BorderLeftRight:before,
+.service-card:hover .BorderLeftRight:after{
+    height: 300px;
+    transition: all 0.5s ease;
+}
+
+.BorderTopBottom1:before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    top: 0px;
+    left: 0px;
+    background: #fff;
+    transition: all 0.5s ease;
+}
+
+.BorderTopBottom1:after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    bottom: 0px;
+    right: 0px;
+    background: #fff;
+    transition: all 0.5s ease;
+}
+
+
+.BorderLeftRight2:before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 3px;
+    height: 50px;
+    background: #fff;
+    transition: all 0.5s ease;
+}
+
+.BorderLeftRight2:after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 3px;
+    height: 50px;
+    background:#fff;
+    transition: all 0.5s ease;
+}
+
+.service-card:hover .BorderTopBottom1:before,
+.service-card:hover .BorderTopBottom1:after{
+    width: 350px;
+    transition: all 0.5s ease;
+}
+
+.service-card:hover .BorderLeftRight2:before,
+.service-card:hover .BorderLeftRight2:after{
+    height: 300px;
+    transition: all 0.5s ease;
+}
+
+
+
+.card-padding{
+    padding: 50px;
+}
+
+
+.c1{
+    background-color: #020413;
+}
+
+.c2{
+    background-color: #117BFB;
+}
+
+.c3{
+    background-color: #020413;
+}
+
+.c4{
+    background-color: #020413;
+}
+
+.c5{
+    background-color: #020413;
+}
+
+.c6{
+    background-color: #020413;
+}
+
+.service-card h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.border{
+    width:50px;
+    height: 2px;
+    margin: 10px auto;
+    background: #fff;
+}
+
+
+.service-card a i{
+    font-size: 26px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    z-index: 1;
+}
+.service-card a i:hover{
+    background: #fff;
+    color: #333;
+}
+
+.service-card p{
+    font-size: 14px;
+    font-weight: 400;
+}

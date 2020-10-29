@@ -1,0 +1,23 @@
+.navbar-brand h1{
+    color: #117BFB;
+}
+.navbar-color{
+    color: #fff;
+}
+.nav-item{
+    margin: 0px 10px;
+}
+.cool_link::before{
+    content: '';
+    display:block;
+    height: 2px;
+    width: 0;
+    background: #fff;
+    transition: width 0.3s;
+}
+.cool_link:hover::before{
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    transition: width 0.3s;
+}

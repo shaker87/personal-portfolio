@@ -1,0 +1,48 @@
+.header-main{
+    padding: 50px 0px;
+}
+.profile-text{
+    margin-top: 50px;
+    text-align: center;
+}
+.profile-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.profile-text h1{
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    color: #fff;
+    margin: 30px 0px;
+}
+.profile-text .highlight{
+    color: #1065CF;
+}
+.profile-text h5{
+    font-weight: 400;
+    color: #fff;
+    margin: 30px 0px;
+}
+.header-main ul{
+    list-style: none;
+    margin-left: -20px;
+}
+.header-main ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+.profile-icon{
+    margin-top: 20px;
+}
+
+.brand-icon{
+    font-size: 25px;
+    color: #fff;
+    transition: .7s;
+}
+
+
