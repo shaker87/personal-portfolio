@@ -21,7 +21,7 @@ const HeaderMain = () => {
                 </div>
                 <h1>Hi, I am <span className="highlight">Shaker Hossain</span></h1>
                 <h5>I am a frontend web developer. I can provide clean code and pixel perfect design. I also <br /> make website more & more interactive with web animations.</h5>
-                <button className="btn btn-primary">My Work <FontAwesomeIcon icon={faArrowDown} /></button>
+                <button className="btn btn-primary"><Link style={{ color: 'white', textDecoration:'none' }}to="/portfolio">My Work <FontAwesomeIcon icon={faArrowDown} /></Link></button>
 
             </div>
 

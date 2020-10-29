@@ -1,3 +1,5 @@
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
@@ -5,7 +7,7 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         
-       <div className="bg-dark">
+       <div className="bg-dark sticky-top">
             <div className="container">
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <Link class="navbar-brand" to="#"><h1>Shaker</h1></Link>
@@ -32,6 +34,9 @@ const Navbar = () => {
                         </li>
                         <li class="nav-item">
                             <Link class="nav-link cool_link" to="/contact">Contact</Link>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" className="btn btn-primary">Download Resume <FontAwesomeIcon icon={faDownload} /></a>
                         </li>
                     </ul>
 

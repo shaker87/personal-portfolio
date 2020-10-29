@@ -116,8 +116,8 @@ const About = () => {
                             </table>
                         </div>
                         <div class="d-flex justify-content-around">
-                            <button className="btn btn-primary"><Link style={{ color: 'white' }} to="#">Send a message <FontAwesomeIcon icon={faMailBulk} /></Link></button>
-                            <button className="btn btn-primary"><Link to="#" style={{ color: 'white' }}>Download Resume <FontAwesomeIcon icon={faDownload} /></Link></button>
+                            <button className="btn btn-primary"><Link style={{ color: 'white', textDecoration: 'none' }} to="#">Send a message <FontAwesomeIcon icon={faMailBulk} /></Link></button>
+                            <button className="btn btn-primary"><Link to="#" style={{ color: 'white', textDecoration: 'none' }}>Download Resume <FontAwesomeIcon icon={faDownload} /></Link></button>
                         </div>
                     </div>
                 </div>

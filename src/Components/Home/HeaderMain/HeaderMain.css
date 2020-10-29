@@ -2,7 +2,7 @@
     padding: 50px 0px;
 }
 .profile-text{
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
 }
 .profile-img{
@@ -43,6 +43,19 @@
     font-size: 25px;
     color: #fff;
     transition: .7s;
+}
+
+.custom-btn{
+    background-color: #1065CF;
+    padding: 12px 20px;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 

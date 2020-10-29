@@ -65,7 +65,3 @@
     transform: scale(1);
 } */
 
-.card:hover{
-    transform: rotate(3deg);
-    transition: all 1s ease;
-}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createContext, useState } from 'react';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -11,10 +11,16 @@ import ServicePages from './Components/ServicePages/ServicePages';
 import PortFolioPages from './Components/PortFolioPages/PortFolioPages';
 import BlogPages from './Components/BlogPages/BlogPages';
 import ContactPages from './Components/ContactPages/ContactPages';
+import Login from './Components/Auth/Login/Login';
+import PrivateRoute from './Components/Auth/PrivateRoute/PrivateRoute';
+import DashBoard from './Components/DashBoard/DashBoard/DashBoard';
+
+export const UserContext = createContext();
 
 const App = () => {
+  const [loggedInUser, setLoggedInUser] = useState({isSignedIn: true});
   return (
-    <>
+    <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
        <Router>
          <Switch>
            <Route path="/home">
@@ -35,12 +41,18 @@ const App = () => {
            <Route path="/contact">
              <ContactPages></ContactPages>
            </Route>
+           <Route path="/login">
+            <Login></Login>
+          </Route>
+          <PrivateRoute path="/services/:title">
+             <DashBoard></DashBoard>
+          </PrivateRoute>
            <Route exact path="/">
              <Home></Home>
            </Route>
          </Switch>
        </Router>
-    </>
+    </UserContext.Provider>
   );
 };
 

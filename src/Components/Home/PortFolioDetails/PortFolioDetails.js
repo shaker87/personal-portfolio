@@ -14,8 +14,10 @@ const PortFolioDetails = ({ port }) => {
 
                 </div>
                 <div class="card-body d-flex justify-content-around">
-                    <Link to="#" class="btn btn-primary">Live View</Link>
-                    <Link to="#" class="btn btn-primary">Github</Link>
+                    {/* <Link to="#" class="btn btn-primary">Live View</Link>
+                    <Link to="#" class="btn btn-primary">Github</Link> */}
+                    <a href="https://shaker-hossain87.medium.com/top-5-skill-web-developer-must-know-14607fc142fa" target="_blank" class="btn btn-primary">Live View</a>
+                    <a href="https://shaker-hossain87.medium.com/top-5-skill-web-developer-must-know-14607fc142fa" target="_blank" class="btn btn-primary">Github</a>
                 </div>
             </div>
         </div>
