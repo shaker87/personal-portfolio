@@ -4,7 +4,9 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className="container">
+        
+       <div className="bg-dark">
+            <div className="container">
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <Link class="navbar-brand" to="#"><h1>Shaker</h1></Link>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,28 +16,29 @@ const Navbar = () => {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <Link class="nav-link cool_link active" href="#">Home</Link>
+                            <Link class="nav-link cool_link active" to="/home">Home</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link cool_link" href="#">About</Link>
+                            <Link class="nav-link cool_link" to="/about">About</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link cool_link" href="#">Service</Link>
+                            <Link class="nav-link cool_link" to="/service">Service</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link cool_link" href="#">Portfolio</Link>
+                            <Link class="nav-link cool_link" to="/portfolio">Portfolio</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link cool_link" href="#">Blog</Link>
+                            <Link class="nav-link cool_link" to="/blog">Blog</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link cool_link" href="#">Contact</Link>
+                            <Link class="nav-link cool_link" to="/contact">Contact</Link>
                         </li>
                     </ul>
 
                 </div>
             </nav>
         </div>
+       </div>
     );
 };
 

@@ -2,9 +2,12 @@ import React from 'react';
 import Header from '../Header/Header';
 import './Home.css';
 import About from '../About/About';
-import BreakComponents from '../BreakComponents/BreakComponents';
+import BreakComponents from '../../SharedComponents/BreakComponents/BreakComponents';
 import Service from '../Service/Service';
 import PortFolio from '../PortFolio/PortFolio';
+import Review from '../Review/Review';
+import Contact from '../Contact/Contact';
+import Footer from '../../SharedComponents/Footer/Footer';
 
 
 const Home = () => {
@@ -17,6 +20,12 @@ const Home = () => {
             <Service></Service>
             <BreakComponents></BreakComponents>
             <PortFolio></PortFolio>
+            <BreakComponents></BreakComponents>
+            <Review></Review>
+            <BreakComponents></BreakComponents>
+            <Contact></Contact>
+            <BreakComponents></BreakComponents>
+            <Footer></Footer>
         </div>
     );
 };

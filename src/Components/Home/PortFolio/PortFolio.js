@@ -7,32 +7,32 @@ import PortFolioDetails from '../PortFolioDetails/PortFolioDetails';
 const portFolioData = [
     {
         title: 'E-commerce Apllication Design',
-        image: portImage,
+        images: portImage,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, debitis!'
     },
     {
-        title: 'Agency Apllication Design',
-        image: portImage,
+        title: 'Creative Agency Apllication Design',
+        images: portImage,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, debitis!'
     },
     {
         title: 'Hospital Mangement AppLication Design',
-        image: portImage,
+        images: portImage,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, debitis!'
     },
     {
         title: 'Blog Application Design',
-        image: portImage,
+        images: portImage,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, debitis!'
     },
     {
         title: 'Inventory Apllication Design',
-        image: portImage,
+        images: portImage,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, debitis!'
     },
     {
         title: 'Portfolio Apllication Design',
-        image: portImage,
+        images: portImage,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, debitis!'
     }
 

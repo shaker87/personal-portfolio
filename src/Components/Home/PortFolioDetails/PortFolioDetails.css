@@ -1,6 +1,6 @@
-.port-box{
+/* .port-box{
     width: 100%;
-    height: 100%;
+    height: 550px;
     background: #fff;
     margin-bottom: 30px;
     text-align: center;
@@ -63,4 +63,9 @@
 
 .p-img:hover .image-hover {
     transform: scale(1);
+} */
+
+.card:hover{
+    transform: rotate(3deg);
+    transition: all 1s ease;
 }
