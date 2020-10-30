@@ -11,16 +11,33 @@
     font-weight: 700;
 }
 
-.border-top,.border-bottom{
+.b-top,.b-bottom{
     height: 1px;
     width: 50px;
     background-color: black;
     margin: 5px auto;
 }
 
-.border-middle{
+.b-middle{
     height: 1px;
     width: 80px;
     background-color:black;
     margin: 0 auto;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .service-area{
+        background-color: #F6F6F6;
+        padding: 50px 0px;
+        text-align: center;
+        width: 100%;
+    
+    }
+    .section-title h1{
+        font-size: 30px;
+        color: #117bfb;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {}

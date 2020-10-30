@@ -36,7 +36,7 @@ const Navbar = () => {
                             <Link class="nav-link cool_link" to="/contact">Contact</Link>
                         </li>
                         <li class="nav-item">
-                            <a href="#" className="btn btn-primary">Download Resume <FontAwesomeIcon icon={faDownload} /></a>
+                            <a href="https://drive.google.com/file/d/1JJDPQFgEWvjdGOHIvuUYRe3m5JpC2YG_/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-primary">Download Resume <FontAwesomeIcon icon={faDownload} /></a>
                         </li>
                     </ul>
 

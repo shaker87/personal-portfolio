@@ -22,9 +22,9 @@ const Contact = () => {
             <div className="container">
                 <div class="section-title">
                     <h1 className="text-center">GET IN TOUCH</h1>
-                    <div class="border-top"></div>
-                    <div class="border-middle"></div>
-                    <div class="border-bottom"></div>
+                    <div className="br-top"></div>
+                    <div className="br-middle"></div>
+                    <div className="br-bottom"></div>
                 </div>
                 <div className="row mt-5">
                     <div className="col-md-6">
@@ -48,7 +48,7 @@ const Contact = () => {
                             </div>
                         </form>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 contact-info">
                         <div style={{ color: 'white' }}>
                             <h3>Contact Information</h3>
                             <p>Always available for freelance work if the right project comes along, Feel free to contact me!</p>

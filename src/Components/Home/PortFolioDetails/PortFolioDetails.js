@@ -1,13 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './PortFolioDetails.css';
 
 const PortFolioDetails = ({ port }) => {
     return (
 
-        <div className="col-md-4">
+        <div className="col-md-4 col-sm-6 col-xs-12">
             <div className="card" style={{ width: '100%', marginBottom: '30px' }}>
-                <img className="card-img-top" src={port.images} alt="" srcset="" />
+                <img className="card-img-top img-fluid" src={port.images} alt="" srcset="" />
                 <div class="card-body">
                     <h5 class="card-title">{port.title}</h5>
                     <p class="card-text">{port.description}</p>
@@ -16,8 +15,8 @@ const PortFolioDetails = ({ port }) => {
                 <div class="card-body d-flex justify-content-around">
                     {/* <Link to="#" class="btn btn-primary">Live View</Link>
                     <Link to="#" class="btn btn-primary">Github</Link> */}
-                    <a href="https://shaker-hossain87.medium.com/top-5-skill-web-developer-must-know-14607fc142fa" target="_blank" class="btn btn-primary">Live View</a>
-                    <a href="https://shaker-hossain87.medium.com/top-5-skill-web-developer-must-know-14607fc142fa" target="_blank" class="btn btn-primary">Github</a>
+                    <a href={port.liveUrl} target="_blank" rel="noreferrer" class="btn btn-primary">Live View</a>
+                    <a href={port.gitUrl} target="_blank" rel="noreferrer" class="btn btn-primary">Github</a>
                 </div>
             </div>
         </div>

@@ -64,9 +64,9 @@ const Review = () => {
             <div className="container">
                 <div class="section-title">
                     <h1>CLIENTS SAY</h1>
-                    <div class="border-top"></div>
-                    <div class="border-middle"></div>
-                    <div class="border-bottom"></div>
+                    <div className="br-top"></div>
+                    <div className="br-middle"></div>
+                    <div className="br-bottom"></div>
                 </div>
                 <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={2000}
                     keyBoardControl={true} dotListClass="custom-dot-list-style" showDots={true}>

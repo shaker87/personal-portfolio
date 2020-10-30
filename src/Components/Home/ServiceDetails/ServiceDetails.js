@@ -14,7 +14,7 @@ const ServiceDetails = ({ service }) => {
         
     }
     return (
-        <div className="col-md-4">
+        <div className="col-md-4 col-xs-12">
             <div onClick={()=> handleOrderService(service.title, service)} className="service-card c1">
                 <div className="card-padding">
                     <Link to="#"><i class="fa fa-code"></i></Link>

@@ -5,10 +5,14 @@
 .about-image{
     position: relative;
 }
+.about-image img{
+    width: 470px;
+    height: 732px;
+}
 .p-bar{
     position: absolute;
     height: 470px;
-    width: 400px;
+    width: 350px;
     background-color: #010312;
     color: #fff;
     opacity: .90;
@@ -93,3 +97,214 @@
 }
 
 
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .about{
+        background-color: #010312;
+        padding: 80px 0px;
+    }
+    .about-image{
+        position: relative;
+    }
+    .about-image img{
+        width: 320px;
+        height: 432px;
+    }
+    .p-bar{
+        position: absolute;
+        height: 290px;
+        width: 270px;
+        background-color: #010312;
+        color: #fff;
+        opacity: .90;
+        top: 40%;
+        right: 36px;
+        padding: 15px 20px;
+        border: 1px solid #058CDF;
+        box-shadow: 0px 3px 10px 3px #888888;
+    }
+    .p-bar h6{
+        font-size: 10px;
+        padding-top: 2px;
+        font-weight: 400;
+    }
+    .p-bar span h3{
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        border-bottom: 1px solid #117BFB;
+    }
+    .progress{
+        height: 10px;
+    }
+    
+    .progress-bar{
+        height: 10px;
+        background-color: #069BF6;
+    }
+    
+    
+    
+    .abouts h2{
+        margin-top: 50px;
+        position: relative;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 8px 15px;
+        border:1px solid #fff;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+    
+    .abouts h2:after{
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-top: 0px solid #fff;
+        border-bottom:1px solid #fff;
+        border-left: 0px solid #fff;
+        border-right:1px solid #fff;
+        top: 100%;
+        left: 60%;
+        transform: rotate(45deg);
+        margin-top: -9px;
+        background-color: #010312;
+    }
+    
+    .abouts p{
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        text-align: justify;
+        padding: 30px 10px;
+    }
+    
+    .table-borderless > tbody > tr > td,
+    .table-borderless > tbody > tr > th,
+    .table-borderless > thead > tr > td,
+    .table-borderless > thead > tr > th {
+        border: none;
+    }
+    
+    .table-borderless > thead > tr > th{
+        font-size: 14px;
+        color: #10C0F6;
+    }
+    
+    .table-borderless > tbody > tr > td{
+        color: #fff;
+        font-size: 12px;
+    }
+    
+    .bor{
+        border-bottom: 1px solid #fff;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about{
+        background-color: #010312;
+        padding: 80px 0px;
+    }
+    .about-image{
+        position: relative;
+    }
+    .about-image img{
+        width: 380px;
+        height: 532px;
+    }
+    .p-bar{
+        position: absolute;
+        height: 330px;
+        width: 290px;
+        background-color: #010312;
+        color: #fff;
+        opacity: .90;
+        top: 40%;
+        right: 0px;
+        padding: 15px 20px;
+        border: 1px solid #058CDF;
+        box-shadow: 0px 3px 10px 3px #888888;
+    }
+    .p-bar h6{
+        font-size: 10px;
+        padding-top: 2px;
+        font-weight: 400;
+    }
+    .p-bar span h3{
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        border-bottom: 1px solid #117BFB;
+    }
+    .progress{
+        height: 10px;
+    }
+    
+    .progress-bar{
+        height: 10px;
+        background-color: #069BF6;
+    }
+    
+    
+    
+    .abouts h2{
+        position: relative;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 8px 15px;
+        border:1px solid #fff;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+    
+    .abouts h2:after{
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-top: 0px solid #fff;
+        border-bottom:1px solid #fff;
+        border-left: 0px solid #fff;
+        border-right:1px solid #fff;
+        top: 100%;
+        left: 60%;
+        transform: rotate(45deg);
+        margin-top: -9px;
+        background-color: #010312;
+    }
+    
+    .abouts p{
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        text-align: justify;
+        padding: 30px 10px;
+    }
+    
+    .table-borderless > tbody > tr > td,
+    .table-borderless > tbody > tr > th,
+    .table-borderless > thead > tr > td,
+    .table-borderless > thead > tr > th {
+        border: none;
+        padding-top: 0;
+        padding-right:  30px;
+    }
+    
+    .table-borderless > thead > tr > th{
+        font-size: 14px;
+        color: #10C0F6;
+    }
+    
+    .table-borderless > tbody > tr > td{
+        color: #fff;
+        font-size: 12px;
+    }
+    
+    .bor{
+        border-bottom: 1px solid #fff;
+    }
+}

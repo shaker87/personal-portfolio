@@ -13,14 +13,14 @@ const HeaderMain = () => {
                 <img className="img-fluid profile-img" src={profile} alt="Profile" srcset="" />
                 <div className="profile-icon">
                     <ul>
-                        <li><Link href="#" className="brand-icon"><FontAwesomeIcon icon={faFacebook} /></Link></li>
-                        <li><Link href="#" className="brand-icon"><FontAwesomeIcon icon={faGithub} /></Link></li>
-                        <li><Link href="#" className="brand-icon"><FontAwesomeIcon icon={faLinkedin} /></Link></li>
-                        <li><Link href="#" className="brand-icon"><FontAwesomeIcon icon={faTwitter} /></Link></li>
+                        <li><a href="https://www.facebook.com/saker.ahmmed.9/" target="_blank" rel="noreferrer"className="brand-icon"><FontAwesomeIcon icon={faFacebook} /></a></li>
+                        <li><a href="https://github.com/shaker87" className="brand-icon"><FontAwesomeIcon icon={faGithub} /></a></li>
+                        <li><a href="https://www.linkedin.com/in/shaker-hossain-49b2381ba/" target="_blank" rel="noreferrer" className="brand-icon"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                        <li><a href="https://twitter.com/SakerAhmmed" target="_blank" rel="noreferrer"className="brand-icon"><FontAwesomeIcon icon={faTwitter} /></a></li>
                     </ul>
                 </div>
                 <h1>Hi, I am <span className="highlight">Shaker Hossain</span></h1>
-                <h5>I am a frontend web developer. I can provide clean code and pixel perfect design. I also <br /> make website more & more interactive with web animations.</h5>
+                <h5>I am a MERN stck developer. I can provide clean code and pixel perfect design and  development. <br /> I also make website more & more interactive with web animations.</h5>
                 <button className="btn btn-primary"><Link style={{ color: 'white', textDecoration:'none' }}to="/portfolio">My Work <FontAwesomeIcon icon={faArrowDown} /></Link></button>
 
             </div>

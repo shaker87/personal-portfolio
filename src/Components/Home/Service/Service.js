@@ -43,9 +43,9 @@ const Service = () => {
 
                 <div class="section-title">
                     <h1>SERVICE</h1>
-                    <div class="border-top"></div>
-                    <div class="border-middle"></div>
-                    <div class="border-bottom"></div>
+                    <div className="b-top"></div>
+                    <div className="b-middle"></div>
+                    <div className="b-bottom"></div>
                 </div>
                 <div className="row">
                     {
