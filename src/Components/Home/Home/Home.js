@@ -10,6 +10,7 @@ import Review from '../Review/Review';
 import Contact from '../Contact/Contact';
 import Footer from '../../SharedComponents/Footer/Footer';
 import ScrollTop from 'react-scrolltop-button';
+import {Zoom} from 'react-preloaders';
 
 
 const Home = () => {
