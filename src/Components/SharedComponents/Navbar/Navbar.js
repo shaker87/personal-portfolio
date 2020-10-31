@@ -1,8 +1,7 @@
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import pdf from '../../SharedComponents/Navbar/Resume.pdf';
 
 const Navbar = () => {
     return (
@@ -36,7 +35,7 @@ const Navbar = () => {
                             <Link class="nav-link cool_link" to="/contact">Contact</Link>
                         </li>
                         <li class="nav-item">
-                            <a href="https://drive.google.com/file/d/1JJDPQFgEWvjdGOHIvuUYRe3m5JpC2YG_/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-primary">Download Resume <FontAwesomeIcon icon={faDownload} /></a>
+                        <a href="https://drive.google.com/file/d/1JJDPQFgEWvjdGOHIvuUYRe3m5JpC2YG_/view?usp=sharing" target="_blank" rel="noreferrer"><button className="btn btn-outline-primary">Get Resume</button></a>
                         </li>
                     </ul>
 

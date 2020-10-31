@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.css';
 import Header from '../Header/Header';
-import './Home.css';
 import About from '../About/About';
 import BreakComponents from '../../SharedComponents/BreakComponents/BreakComponents';
 import Service from '../Service/Service';
@@ -15,7 +14,7 @@ import {Zoom} from 'react-preloaders';
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Header></Header>
             <BreakComponents></BreakComponents>
             <About></About>
@@ -30,7 +29,7 @@ const Home = () => {
             <BreakComponents></BreakComponents>
             <Footer></Footer>
             <ScrollTop />;
-        </div>
+        </>
     );
 };
 

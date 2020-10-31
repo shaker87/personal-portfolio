@@ -1,9 +1,14 @@
 import React from 'react';
 import './BlogPost.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const BlogPost = ({ blog }) => {
+    AOS.init({
+        duration : 1500
+      })
     return (
-        <diiv className="col-md-4">
+        <div data-aos="zoom-in" className="col-md-4">
             <div className="card  mt-5" style={{ width: '100%', }}>
                 <img src={blog.images} alt="" className="card-img-top" />
                 <div className="card-body">
@@ -13,7 +18,7 @@ const BlogPost = ({ blog }) => {
                     <a className="btn-grad" href={blog.url}>Read More</a>
                 </div>
             </div>
-        </diiv>
+        </div>
     );
 };
 

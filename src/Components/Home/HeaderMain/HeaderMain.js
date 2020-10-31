@@ -20,8 +20,8 @@ const HeaderMain = () => {
                     </ul>
                 </div>
                 <h1>Hi, I am <span className="highlight">Shaker Hossain</span></h1>
-                <h5>I am a MERN stck developer. I can provide clean code and pixel perfect design and  development. <br /> I also make website more & more interactive with web animations.</h5>
-                <button className="btn btn-primary"><Link style={{ color: 'white', textDecoration:'none' }}to="/portfolio">My Work <FontAwesomeIcon icon={faArrowDown} /></Link></button>
+                <h5>I am a MERN stack developer. I can provide clean code and pixel perfect design and  development. <br /> I also make website more & more interactive with web animations.</h5>
+                <button className="btn btn-outline-dark"><Link style={{ color: 'white', textDecoration:'none' }}to="/portfolio">My Work <FontAwesomeIcon icon={faArrowDown} /></Link></button>
 
             </div>
 

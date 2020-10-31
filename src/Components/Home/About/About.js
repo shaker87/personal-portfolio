@@ -3,13 +3,18 @@ import './About.css';
 import images from '../../../Images/shakerProfile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+    AOS.init({
+        duration : 1000
+      })
     return (
         <section className="about">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-7 col-sm-12 col-xs-12">
+                    <div data-aos="fade-right" className="col-md-7 col-sm-12 col-xs-12">
                         <div className="about-image">
                             <img src={images} alt="" srcset="" />
                             <div className="p-bar">
@@ -77,7 +82,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-5 col-sm-12 col-xs-12">
+                    <div data-aos="fade-left" className="col-md-5 col-sm-12 col-xs-12">
                         <div class="abouts">
                             <h2>About Me</h2>
                             <p>Hi! My name is Shaker Hossain. I am a MERN stack developer, and I'm very passionate and dedicated

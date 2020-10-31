@@ -1,5 +1,7 @@
 import React from 'react';
 import './Contact.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import emailjs from 'emailjs-com';
 import { init } from 'emailjs-com';
 init("user_sG0KIB3KdSYDcPOSSxZZP");
@@ -17,6 +19,10 @@ const Contact = () => {
             });
         e.target.reset();
     }
+
+    AOS.init({
+        duration : 1500
+      })
     return (
         <div className="contact-area">
             <div className="container">
@@ -27,7 +33,7 @@ const Contact = () => {
                     <div className="br-bottom"></div>
                 </div>
                 <div className="row mt-5">
-                    <div className="col-md-6">
+                    <div data-aos="fade-right" className="col-md-6">
                         <form onSubmit={sendEmail}>
                             <div className="row pt-2 mx-auto">
                                 <div className="col-10 form-group mx-auto">
@@ -48,7 +54,7 @@ const Contact = () => {
                             </div>
                         </form>
                     </div>
-                    <div className="col-md-6 contact-info">
+                    <div data-aos="fade-left" className="col-md-6 contact-info">
                         <div style={{ color: 'white' }}>
                             <h3>Contact Information</h3>
                             <p>Always available for freelance work if the right project comes along, Feel free to contact me!</p>

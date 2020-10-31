@@ -1,6 +1,8 @@
 import React from 'react';
 import ServiceDetails from '../ServiceDetails/ServiceDetails';
 import './Service.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const serviceData = [
     {
@@ -37,6 +39,9 @@ const serviceData = [
 ]
 
 const Service = () => {
+    AOS.init({
+        duration : 1000
+      })
     return (
         <section className="service-area">
             <div className="container">

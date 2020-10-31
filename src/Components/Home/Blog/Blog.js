@@ -33,9 +33,9 @@ const Blog = () => {
 
                 <div class="section-title text-center">
                     <h1>Blog</h1>
-                    <div class="border-top"></div>
-                    <div class="border-middle"></div>
-                    <div class="border-bottom"></div>
+                    <div class="br-top"></div>
+                    <div class="br-middle"></div>
+                    <div class="br-bottom"></div>
                 </div>
                 <div className="row">
                     {
