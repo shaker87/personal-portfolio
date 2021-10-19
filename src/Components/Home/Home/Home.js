@@ -9,7 +9,9 @@ import Review from '../Review/Review';
 import Contact from '../Contact/Contact';
 import Footer from '../../SharedComponents/Footer/Footer';
 import ScrollTop from 'react-scrolltop-button';
-import {Zoom} from 'react-preloaders';
+import { Zoom } from 'react-preloaders';
+import ReactDOM from 'react-dom';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 
 const Home = () => {
@@ -28,7 +30,7 @@ const Home = () => {
             <Contact></Contact>
             <BreakComponents></BreakComponents>
             <Footer></Footer>
-            <ScrollTop />;
+            <ScrollTop />
         </>
     );
 };

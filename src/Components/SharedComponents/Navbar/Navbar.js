@@ -35,7 +35,7 @@ const Navbar = () => {
                             <Link class="nav-link cool_link" to="/contact">Contact</Link>
                         </li>
                         <li class="nav-item">
-                        <a href="https://drive.google.com/file/d/1JJDPQFgEWvjdGOHIvuUYRe3m5JpC2YG_/view?usp=sharing" target="_blank" rel="noreferrer"><button className="btn btn-outline-primary">Get Resume</button></a>
+                            <a href={pdf} download="Shaker Resume"><button className="btn btn-outline-primary">Get Resume</button></a>
                         </li>
                     </ul>
 

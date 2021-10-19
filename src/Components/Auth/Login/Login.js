@@ -24,7 +24,7 @@ const Login = () => {
           const signedInUser = {...loggedInUser, name: displayName, email:email,photoURL:photoURL, isSigned: true };
           // setUserToken()
           setLoggedInUser(signedInUser);
-          history.replace(from);
+          history.push("/order");
         })
         .catch(function (error) {
           const errorMessage = error.message;

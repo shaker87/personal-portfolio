@@ -18,7 +18,7 @@ const DashBoard = () => {
         <div>
             <Navbar></Navbar>
             <div className="container-fluid">
-                <Router>
+                <>
                     <SplitPane
                         split="vertical"
                         minSize={100}
@@ -32,7 +32,7 @@ const DashBoard = () => {
                             <Route path="/review" component={Review} />
                         </div>
                     </SplitPane>
-                </Router>
+                </>
             </div>
 
         </div>

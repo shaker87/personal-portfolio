@@ -1,8 +1,7 @@
 import React from 'react';
 import './About.css';
 import images from '../../../Images/shakerProfile.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import pdf from '../../SharedComponents/Navbar/Resume.pdf';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -120,7 +119,8 @@ const About = () => {
                             </table>
                         </div>
                         <div className="mt-5">
-                            <a href="https://drive.google.com/file/d/1JJDPQFgEWvjdGOHIvuUYRe3m5JpC2YG_/view?usp=sharing" target="_blank" rel="noreferrer"><button className="btn btn-primary">Download Resume <FontAwesomeIcon icon={faDownload} /></button></a>
+                            <a href={pdf} download="Shaker Resume"><button className="btn btn-outline-primary">
+                                Get Resume </button></a>
                         </div>
                     </div>
                 </div>

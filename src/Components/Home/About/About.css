@@ -1,5 +1,6 @@
 .about{
     background-color: #010312;
+    width: 100%;
     padding: 80px 0px;
 }
 .about-image{
@@ -35,6 +36,7 @@
 
 .progress-bar{
     background-color: #069BF6;
+    font-size: 12px;
 }
 
 

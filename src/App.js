@@ -14,6 +14,7 @@ import ContactPages from './Components/ContactPages/ContactPages';
 import Login from './Components/Auth/Login/Login';
 import PrivateRoute from './Components/Auth/PrivateRoute/PrivateRoute';
 import DashBoard from './Components/DashBoard/DashBoard/DashBoard';
+import OrderForm from './Components/DashBoard/OrderForm/OrderForm';
 
 export const UserContext = createContext();
 
@@ -45,6 +46,15 @@ const App = () => {
             <Login></Login>
           </Route>
           <PrivateRoute path="/services/:title">
+             <DashBoard></DashBoard>
+          </PrivateRoute>
+          <PrivateRoute path="/order">
+             <DashBoard></DashBoard>
+          </PrivateRoute>
+          <PrivateRoute path="/service-list">
+             <DashBoard></DashBoard>
+          </PrivateRoute>
+          <PrivateRoute path="/review">
              <DashBoard></DashBoard>
           </PrivateRoute>
            <Route exact path="/">
